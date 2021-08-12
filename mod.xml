@@ -1,0 +1,6 @@
+<Mod
+	name="Random starting perk"
+	description="Start every run with a perk from the Holy Mountain pool."
+	request_no_api_restrictions="0" 
+> 
+</Mod>
