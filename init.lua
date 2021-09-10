@@ -34,8 +34,6 @@ function OnPlayerSpawned( player_entity )
 	-- Ceil makes it wider instead of taller
 	local rows = math.ceil(math.sqrt(perks_amount))
 
-	GamePrint("Spawning rows: "..tostring(rows))
-
 	-- Draw perk rows
 	for current_row = 1, rows, 1 do 
 
@@ -48,8 +46,6 @@ function OnPlayerSpawned( player_entity )
 			-- Spawn the full amount
 			cols = rows
 		end
-
-		GamePrint("Spawning cols: " .. tostring(cols))
 
 		-- If there is something to spawn
 		if cols ~= 0 then
