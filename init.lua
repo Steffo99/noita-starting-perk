@@ -67,13 +67,13 @@ function OnPlayerSpawned( player_entity )
 				local y = y_bottom - (current_row - 1) * offset
 
 				-- Spawn the perk
-				-- perk_spawn_random(x, y, not only_one)
-
-				-- Used to take the screenshot
-				perk_spawn( 771, -96, "GENOME_MORE_LOVE" )
+				perk_spawn_random(x, y, not only_one)
 
 				perks_amount = perks_amount - 1
 			end
 		end
 	end
+
+	-- Used to take the screenshot
+	-- perk_spawn( 771, -96, "GENOME_MORE_LOVE" )
 end
