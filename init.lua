@@ -13,7 +13,7 @@ function OnPlayerSpawned( player_entity )
 	GameAddFlagRun( init_check_flag )
 
 	-- Load mod settings
-	local perks_amount = ModSettingGet("starting_perk.perks_spawned")
+	local perks_amount = math.ceil(ModSettingGet("starting_perk.perks_spawned"))
 	local only_one = ModSettingGet("starting_perk.only_one")
 
 	-- Print mod settings to the player
