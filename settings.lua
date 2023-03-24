@@ -1,25 +1,9 @@
 dofile("data/scripts/lib/mod_settings.lua")
 
 
-local mod_id = "starting_perk"
+local mod_id = "eat_your_veggies"
 mod_settings_version = 1
 mod_settings = {
-    {
-        id = "perks_spawned",
-        ui_name = "Number of perks spawned",
-        value_default = 1,
-        value_min = 1,
-        value_max = 25,
-        value_display_formatting = " $0 perks",
-        scope = MOD_SETTING_SCOPE_NEW_GAME,
-    },
-    {
-        id = "only_one",
-        ui_name = "Only one",
-        ui_description = "Despawn the other perks when one is chosen.",
-        value_default = true,
-        scope = MOD_SETTING_SCOPE_NEW_GAME,
-    }
 }
 
 
