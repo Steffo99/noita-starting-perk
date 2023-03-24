@@ -1,6 +1,6 @@
 <Mod
-	name="starting_perk"
-	description="Start every run with a random perk from the Holy Mountain pool."
+	name="eat_your_veggies"
+	description="Start every run with the Eat Your Vegetables perk."
 	tags="gameplay,perks,loadouts"
 	dont_upload_folders=""
 	dont_upload_files=""

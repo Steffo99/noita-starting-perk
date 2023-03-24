@@ -1,6 +1,6 @@
 <Mod
-	name="Starting perk"
-	description="Start every run with a perk from the Holy Mountain pool."
+	name="Eat your vegetables"
+	description="Start every run with the Eat Your Vegetables perk."
 	request_no_api_restrictions="0" 
 > 
 </Mod>
